@@ -3,8 +3,11 @@ site_name: 7-juridico-rag-docs
 repo_name: unb-Sistemas-de-Machine-learning/7-juridico-rag-docs
 repo_url: https://github.com/unb-Sistemas-de-Machine-learning/7-juridico-rag-docs
 
-theme: 
+theme:
   name: material
+  palette: 
+    primary: deep purple
+    accent: aliceblue
   features:
     - navigation.tabs
     - navigation.top
