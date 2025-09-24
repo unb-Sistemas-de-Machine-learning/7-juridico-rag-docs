@@ -16,7 +16,7 @@ Enquanto os requisitos funcionais delineiam o que um software deve fazer, os req
 
 | ID   | Requisito Funcional          | Descrição |
 |------|------------------------------|-----------|
-| RF01 | Coleta de informações do usuário | O sistema deve solicitar idade, número de filhos, profissão/situação de trabalho, renda pessoal, renda familiar e escolaridade. |
+| RF01 | Coleta de informações do usuário | O sistema deve solicitar idade, número de filhos, profissão/situação de trabalho, renda pessoal, renda familiar e escolaridade, tipo de necessidade especial, estado civil e se é profissional autônomo (Sim/Não - caso Sim, tipo de trabalho) |
 | RF02 | Coleta opcional de localização | O sistema pode solicitar estado/município, caso algum programa seja regional. |
 | RF03 | Armazenamento temporário dos dados | O chatbot deve guardar as informações fornecidas durante a sessão de conversa. |
 | RF04 | Validação de dados | O sistema deve validar formatos (ex.: renda numérica, idade positiva) e solicitar correções quando necessário. |
@@ -38,6 +38,6 @@ Enquanto os requisitos funcionais delineiam o que um software deve fazer, os req
 | RNF03 | Usabilidade | O chatbot deve usar linguagem clara, simples e acessível a pessoas com baixo nível de escolaridade. |
 | RNF04 | Disponibilidade | O sistema deve estar disponível 24/7 para atender os usuários. |
 | RNF05 | Escalabilidade | O sistema deve suportar múltiplos acessos simultâneos sem perda de desempenho. |
-| RNF06 | Tempo de resposta | O sistema deve responder em no máximo 3–5 segundos após a entrada do usuário. |
+| RNF06 | Tempo de resposta | O sistema deve responder instantaneamente após a entrada do usuário. |
 | RNF07 | Manutenibilidade | A base de conhecimento deve ser fácil de atualizar quando houver mudanças de regras ou novos programas. |
 | RNF08 | Auditabilidade | O sistema deve manter logs anônimos das consultas para auditoria, sem comprometer dados sensíveis do usuário. |
