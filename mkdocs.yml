@@ -1,1 +1,20 @@
-site_name: My Docs
+site_name: 7-juridico-rag-docs
+
+repo_name: unb-Sistemas-de-Machine-learning/7-juridico-rag-docs
+repo_url: https://github.com/unb-Sistemas-de-Machine-learning/7-juridico-rag-docs
+
+theme: 
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+
+plugins:
+  - search
+  - mermaid2:
+      javascript: https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs
+  
+nav: 
+  - Início: index.md
+  - Artefatos:
+    - Requisitos: Artefatos/requisitos.md
