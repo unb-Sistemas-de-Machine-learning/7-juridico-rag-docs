@@ -16,3 +16,10 @@ nav:
   - Início: index.md
   - Artefatos:
     - Requisitos: Artefatos/requisitos.md
+    - Visão do Produto: Artefatos/visaoProduto.md
+    - Mapeamento de Dados: Artefatos/mapeamentoDados.md
+    - Requisitos ML: Artefatos/requisitosML.md
+    - História de Usuário: Artefatos/historiaUsuario.md
+    - Cronograma: Artefatos/cronograma.md
+    - Engenharia de Dados: Artefatos/engenhariaDados.md
+
