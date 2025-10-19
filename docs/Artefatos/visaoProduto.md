@@ -49,24 +49,3 @@ Entre as propostas levantadas, destaca-se o chatbot conversacional, que represen
 Com isso, o Ideas Canvas contribuiu para a visualização integrada da solução, auxiliando na priorização de funcionalidades essenciais e no alinhamento da proposta à necessidade social identificada. O resultado foi uma concepção de sistema centrado no usuário, com foco em inclusão, acessibilidade e eficiência na disseminação de informações públicas.
 
 ![idea canvas](../Artefatos/images/idea_canvas.png)
-
----
-
-# ML Canvas
-
-O Machine Learning Canvas (ML Canvas) é uma ferramenta de planejamento estratégico utilizada para estruturar projetos que envolvem aprendizado de máquina, garantindo uma visão clara e integrada dos seus principais componentes. Ele permite definir de forma visual e organizada os objetivos do modelo, as fontes de dados, as tarefas de predição, as decisões associadas, além de aspectos de monitoramento e impacto. Dessa forma, o ML Canvas auxilia na alinhamento entre o propósito do projeto e as soluções técnicas de IA, promovendo um desenvolvimento mais orientado e eficiente.
-
-No contexto deste projeto, o ML Canvas foi aplicado com o objetivo de estruturar o desenvolvimento de um modelo de classificação multi-rótulo, responsável por identificar quais programas sociais um cidadão tem direito a acessar. O modelo utiliza como entradas variáveis como renda familiar, número de dependentes, idade, escolaridade, profissão e estado civil, gerando como saída os programas sociais elegíveis e suas respectivas justificativas.
-
-Durante o processo de elaboração do Canvas, foram definidos os principais componentes do sistema:
-
-- Tarefa de previsão: classificação multi-rótulo de elegibilidade a benefícios sociais;  
-- Fontes de dados: Portal de Dados Abertos do Governo Federal;  
-- Coleta de dados: parâmetros de elegibilidade dos programas, atualizados periodicamente;  
-- Modelo: LLM (Large Language Model) treinado para análise e inferência em tempo real;  
-- Tomada de decisão: integração com o chatbot, que apresenta os resultados de forma acessível ao usuário;  
-- Monitoramento: análise contínua da quantidade de pessoas que identificaram e acessaram benefícios após o uso da ferramenta.
-
-Como resultado, a aplicação do ML Canvas proporcionou clareza na definição das etapas do modelo de IA, garantindo que cada componente estivesse alinhado ao objetivo social do projeto. A ferramenta também auxiliou na identificação de requisitos técnicos e fontes de dados confiáveis, além de orientar o desenho do fluxo de predição integrado ao chatbot. Assim, o ML Canvas foi fundamental para transformar uma proposta conceitual em uma solução prática, estruturada e socialmente relevante, que busca democratizar o acesso a informações sobre programas sociais.
-
-![ml canvas](../Artefatos/images/ml_canvas.png)
