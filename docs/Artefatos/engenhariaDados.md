@@ -4,6 +4,7 @@
 |--------|-----------------|---------------------|----------------|
 | 1.0    | Coleta e armazenamento de dados | Daniela Soares | 17/10/2025  |
 | 1.1    | Adiciona técnicas de amostragem | Diógenes Júnior | 18/10/2025  |
+| 1.2    | Adição do Data Augmentation e Balanceamento de Classes | Diógenes Júnior | 19/10/2025  |
 
 
 ## Visão geral
@@ -85,6 +86,26 @@ O JSON é um formato padronizado e facilmente armazenável, que pode ser salvo, 
 
 ## Rotulação dos Dados
 
+## Data Augmentation
+O principal desafio não era a falta de dados de treinamento para um modelo, mas sim a falta de uma base de conhecimento estruturada, centralizada e acessível sobre os programas sociais. O RAG, por definição, é uma forma de aumentar a capacidade de um modelo de linguagem (LLM, como o Gemini Pro) ao fornecer-lhe dados externos (os requisitos dos programas sociais).
+
+O grupo resolveu priorizar a criação de um Corpus de Conhecimento Relevante (Grounding Data) em vez do treinamento de um modelo do zero.
+
+A "Criação de Dados": Isso foi feito através de uma abordagem de Engenharia de Dados e Conteúdo, que envolveu:
+
+1.  Extração de Fonte: Realização de Web Scraping em documentos oficiais (Editais, Decretos, Portarias) para coletar os requisitos.
+
+2.  Estruturação de Dados: Transformação dos dados semiestruturados/não estruturados (texto dos editais) em um formato estruturado (JSON), definindo esquemas claros
+
+3.  Indexaação para RAG: A conversão desse JSON em chunks e embeddings para o banco de dados vetorial, garantindo que o LLM possa recuperar as regras exatas do programa em tempo de execução.
+
 ## Balanceamento de Classes
+O projeto lida com um tipo de desbalanceamento, mas a solução não se concentra no balanceamento de classes tradicional e sim na cobertura de requisitos (RAG). O grupo preciso diferenciar onde o desbalanceamento poderia ocorrer e como a arquitetura RAG e a estruturação do JSON mitiga esse risco.
+
+1.  Contexto do "Desbalanceamento" no Projeto
+| Nível  | Descrição do Desbalanceamento       | Impacto Potencial  |
+|--------|-----------------|---------------------|
+| Na Base de Conhecimento   | Alguns programas são muito mais complexos ou têm editais muito mais longos que outros. Exemplo: O edital do Bolsa Família pode ser muito maior em volume de texto (e, portanto, em chunks indexados) do que o do Pé-de-Meia. | O modelo pode ter um "viés de volume", recuperando mais facilmente informações do programa maior, mesmo que a pergunta do usuário seja sobre o programa menor. | 
+| Nas Interações/Testes (Dados do Usuário)  | a maioria dos usuários se enquadra na classe "Elegível ao Bolsa Família" ou "Não Elegível a nada". A classe minoritária é o usuário que atende aos requisitos de programas muito específicos e com pouca publicidade. | O grupo pode se concentrar demais nos casos comuns, deixando o chatbot falhar em cenários raros, mas críticos (ex: requisitos muito específicos do BPC). | 
 
 ## Feature Engineering
