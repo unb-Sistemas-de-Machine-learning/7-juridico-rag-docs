@@ -3,6 +3,7 @@
 | Versão | Alteração       | Responsável         | Data Alteração |
 |--------|-----------------|---------------------|----------------|
 | 1.0    | Coleta e armazenamento de dados | Daniela Soares | 17/10/2025  |
+| 1.1    | Adiciona técnicas de amostragem | Diógenes Júnior | 18/10/2025  |
 
 
 ## Visão geral
