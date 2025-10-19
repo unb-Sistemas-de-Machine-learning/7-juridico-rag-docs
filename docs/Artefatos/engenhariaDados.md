@@ -2,7 +2,7 @@
 
 | Versão | Alteração       | Responsável         | Data Alteração |
 |--------|-----------------|---------------------|----------------|
-| 1.0    | Coleta e armazenamento de dados |Daniela Soares | 17/10/2025  |
+| 1.0    | Coleta e armazenamento de dados | Daniela Soares | 17/10/2025  |
 
 
 ## Visão geral
@@ -48,3 +48,42 @@ print(json.dumps(todos_criterios, indent=2, ensure_ascii=False))
 ```
 
 O JSON é um formato padronizado e facilmente armazenável, que pode ser salvo, transmitido ou usado por outros sistemas. Portanto, há armazenamento estruturado e automatizado das informações coletadas.
+
+## Técnica de Amostragem
+
+### Teste do chatbot com personagens fictícios
+
+#### Amostragem Estratificada
+1. Como funciona: Divide os dados em estratos (grupos) com base em uma característica relevante, e então amostra dentro de cada estrato proporcionalmente.
+
+2. Como é aplicada 
+    - Crie personagens fictícios que representem algumas as combinações possíveis ou relevantes de renda, escolaridade, número de filhos, cadastro único etc.
+    - Por exemplo, uma estratificação por:
+        - Renda: baixa, média, alta
+        - Escolaridade: fundamental, médio, superior
+        - Número de filhos: 0, 1–2, 3 ou mais
+
+3. Isso garante que você teste o chatbot em vários cenários possíveis, não apenas nos mais comuns.
+
+### Coleta de dados reais dos usuários
+
+#### Amostragem Aleatória Simples
+1. Como funciona: Cada registro tem a mesma probabilidade de ser selecionado
+
+2. Como é aplicada
+    - Selecionar aleatoriamente um subconjunto para responder ao questionário após o uso do chatbot.
+    - Vantagem: fácil de implementar e garante representatividade geral.
+
+3. Isso permite entender se o chatbot está conseguindo recomendar os programas sociais corretos
+
+### Tabela Resumo
+| Cenário | Técnica Sugerida | Motivo         | 
+|--------|-----------------|---------------------|
+| Teste do chatbot com personagens fictícios | Estratificada | Garantir cobertura de todos os tipos de usuários e testar casos críticos |
+| Coleta de dados reais (conhecimento/elegibilidade) | Aleatória simples | Garantir representatividade geral e a validação das respostas do chatbot |
+
+## Rotulação dos Dados
+
+## Balanceamento de Classes
+
+## Feature Engineering
