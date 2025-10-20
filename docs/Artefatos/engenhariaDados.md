@@ -103,6 +103,7 @@ A "Criação de Dados": Isso foi feito através de uma abordagem de Engenharia d
 O projeto lida com um tipo de desbalanceamento, mas a solução não se concentra no balanceamento de classes tradicional e sim na cobertura de requisitos (RAG). O grupo preciso diferenciar onde o desbalanceamento poderia ocorrer e como a arquitetura RAG e a estruturação do JSON mitiga esse risco.
 
 1.  Contexto do "Desbalanceamento" no Projeto
+
 | Nível  | Descrição do Desbalanceamento       | Impacto Potencial  |
 |--------|-----------------|---------------------|
 | Na Base de Conhecimento   | Alguns programas são muito mais complexos ou têm editais muito mais longos que outros. Exemplo: O edital do Bolsa Família pode ser muito maior em volume de texto (e, portanto, em chunks indexados) do que o do Pé-de-Meia. | O modelo pode ter um "viés de volume", recuperando mais facilmente informações do programa maior, mesmo que a pergunta do usuário seja sobre o programa menor. | 
