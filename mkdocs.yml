@@ -15,8 +15,8 @@ theme:
 nav: 
   - Início: index.md
   - Artefatos:
-    - Requisitos: Artefatos/requisitos.md
     - Visão do Produto: Artefatos/visaoProduto.md
+    - Requisitos: Artefatos/requisitos.md
     - Mapeamento de Dados: Artefatos/mapeamentoDados.md
     - Requisitos ML: Artefatos/requisitosML.md
     - História de Usuário: Artefatos/historiaUsuario.md
