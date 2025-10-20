@@ -3,6 +3,8 @@
 | Versão | Alteração       | Responsável         | Data Alteração |
 |--------|-----------------|---------------------|----------------|
 | 1.0    | Adicionando historias de usuario | Mariana Pereira |  19/10/2025 |
+| 1.1    | Adicionando priorização e MVP | Mariana Pereira |  19/10/2025 |
+
 
 
 ## Histórias de Usuário

@@ -7,8 +7,6 @@
 
 ## Visão geral
 
-# Descrição do produto
-
 O projeto Agente Jurídico para Programas Sociais propõe o desenvolvimento de uma solução inteligente voltada para a democratização do acesso a informações sobre benefícios sociais. Observa-se que, frequentemente, essas informações não são divulgadas de maneira clara e acessível, apresentando linguagem técnica e processos excessivamente burocráticos. Como consequência, muitos cidadãos que possuem direito aos benefícios acabam não os solicitando por falta de compreensão ou por desmotivação diante da complexidade do processo.
 
 Diante desse cenário, o objetivo do projeto é facilitar o acesso a essas informações por meio de um chatbot capaz de interagir com o usuário, coletar os dados necessários e identificar, de forma automatizada, se o indivíduo atende aos requisitos para determinado benefício. Além disso, a solução busca orientar o usuário em relação ao processo de solicitação, fornecendo instruções detalhadas, como a lista de documentos necessários, etapas para obtenção, orientações sobre inscrição e, quando aplicável, o endereço do órgão responsável.
