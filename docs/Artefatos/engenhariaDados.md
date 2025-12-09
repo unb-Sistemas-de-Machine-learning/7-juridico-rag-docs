@@ -108,5 +108,3 @@ O projeto lida com um tipo de desbalanceamento, mas a solução não se concentr
 |--------|-----------------|---------------------|
 | Na Base de Conhecimento   | Alguns programas são muito mais complexos ou têm editais muito mais longos que outros. Exemplo: O edital do Bolsa Família pode ser muito maior em volume de texto (e, portanto, em chunks indexados) do que o do Pé-de-Meia. | O modelo pode ter um "viés de volume", recuperando mais facilmente informações do programa maior, mesmo que a pergunta do usuário seja sobre o programa menor. | 
 | Nas Interações/Testes (Dados do Usuário)  | a maioria dos usuários se enquadra na classe "Elegível ao Bolsa Família" ou "Não Elegível a nada". A classe minoritária é o usuário que atende aos requisitos de programas muito específicos e com pouca publicidade. | O grupo pode se concentrar demais nos casos comuns, deixando o chatbot falhar em cenários raros, mas críticos (ex: requisitos muito específicos do BPC). | 
-
-## Feature Engineering
