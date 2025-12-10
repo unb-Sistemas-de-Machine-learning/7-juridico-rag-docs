@@ -16,7 +16,9 @@ Este documento apresenta os resultados obtidos na prova de conceito do webchat i
 
 ## Evidências (prints)
 1.
+
 ![Print 1 - Webchat funcionando](./images/print-webchat(1).jpg)
 
-2. 
+2.
+
 ![Print 2 - RAG em ação](./images/print-webchat(2).jpeg)
