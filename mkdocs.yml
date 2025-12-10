@@ -1,7 +1,7 @@
-site_name: 7-juridico-rag-docs
+site_name: Grupo-8-JurisSocial-docs
 
-repo_name: unb-Sistemas-de-Machine-learning/7-juridico-rag-docs
-repo_url: https://github.com/unb-Sistemas-de-Machine-learning/7-juridico-rag-docs
+repo_name: unb-Sistemas-de-Machine-learning/Grupo-8-JurisSocial-docs
+repo_url: https://github.com/unb-Sistemas-de-Machine-learning/Grupo-8-JurisSocial-docs
 
 theme:
   name: material
