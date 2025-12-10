@@ -87,7 +87,7 @@ O JSON é um formato padronizado e facilmente armazenável, que pode ser salvo, 
 ## Rotulação dos Dados
 
 ## Data Augmentation
-O principal desafio não era a falta de dados de treinamento para um modelo, mas sim a falta de uma base de conhecimento estruturada, centralizada e acessível sobre os programas sociais. O RAG, por definição, é uma forma de aumentar a capacidade de um modelo de linguagem (LLM, como o Gemini Pro) ao fornecer-lhe dados externos (os requisitos dos programas sociais).
+O principal desafio não era a falta de dados de treinamento para um modelo, mas sim a falta de uma base de conhecimento estruturada, centralizada e acessível sobre os programas sociais. O RAG, por definição, é uma forma de aumentar a capacidade de um modelo de linguagem (LLM, como o Llama da Meta AI) ao fornecer-lhe dados externos (os requisitos dos programas sociais).
 
 O grupo resolveu priorizar a criação de um Corpus de Conhecimento Relevante (Grounding Data) em vez do treinamento de um modelo do zero.
 
@@ -97,7 +97,7 @@ A "Criação de Dados": Isso foi feito através de uma abordagem de Engenharia d
 
 2.  Estruturação de Dados: Transformação dos dados semiestruturados/não estruturados (texto dos editais) em um formato estruturado (JSON), definindo esquemas claros
 
-3.  Indexaação para RAG: A conversão desse JSON em chunks e embeddings para o banco de dados vetorial, garantindo que o LLM possa recuperar as regras exatas do programa em tempo de execução.
+3.  Indexação para RAG: A conversão desse JSON em chunks e embeddings para o banco de dados vetorial, garantindo que o LLM possa recuperar as regras exatas do programa em tempo de execução.
 
 ## Balanceamento de Classes
 O projeto lida com um tipo de desbalanceamento, mas a solução não se concentra no balanceamento de classes tradicional e sim na cobertura de requisitos (RAG). O grupo preciso diferenciar onde o desbalanceamento poderia ocorrer e como a arquitetura RAG e a estruturação do JSON mitiga esse risco.
