@@ -1,4 +1,4 @@
-# Agente Jurídico para Programas Sociais (Sistema RAG) - AJPS
+# JurisSocial - Agente Jurídico para Programas Sociais (Sistema RAG)
 
 O objetivo deste projeto é construir um agente de inteligência artificial que atua como um consultor jurídico para programas sociais. O sistema irá consultar a legislação e os dados de elegibilidade da API de Dados Abertos para informar ao cidadão a qual benefício ele tem direito e, mais importante, o porquê.
 
