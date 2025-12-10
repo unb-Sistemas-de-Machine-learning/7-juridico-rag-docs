@@ -16,6 +16,8 @@ nav:
   - Início: index.md
   - Artefatos:
     - Visão do Produto: Artefatos/visaoProduto.md
+    - Ferramentas: Artefatos/ferramentas.md
+    - Diretórios: Artefatos/repositorio.md
     - Requisitos: Artefatos/requisitos.md
     - Mapeamento de Dados: Artefatos/mapeamentoDados.md
     - Requisitos ML: Artefatos/requisitosML.md
@@ -25,6 +27,4 @@ nav:
     - Arquitetura: Artefatos/arquitetura.md
     - Escolha e Justificativa: Artefatos/justificativa-escolha.md
     - Resultados: Artefatos/resultados.md
-    - Ferramentas: Artefatos/ferramentas.md
-    - Diretórios: Artefatos/repositorio.md
 

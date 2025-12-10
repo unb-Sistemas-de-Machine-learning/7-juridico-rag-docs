@@ -3,7 +3,7 @@
 
 Disciplina Sistemas de Machine Learning. Este curso visa fornecer uma estrutura iterativa para desenvolver sistemas de machine learning do mundo real que sejam implementáveis, confiáveis e escaláveis.
 
-### Agente Jurídico para Programas Sociais (Sistema RAG) - AJPS
+### JurisSocial: Agente Jurídico para Programas Sociais (Sistema RAG)
 
 O objetivo deste projeto é construir um agente de inteligência artificial que atua como um consultor jurídico para programas sociais. O sistema irá consultar a legislação e os dados de elegibilidade da API de Dados Abertos para informar ao cidadão a qual benefício ele tem direito e, mais importante, o porquê.
 
