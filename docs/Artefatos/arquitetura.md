@@ -1,3 +1,10 @@
+## Histórico de versões
+
+| Versão | Alteração       | Responsável         | Data Alteração |
+|--------|-----------------|---------------------|----------------|
+| 1.0    | Adicionando arquitetura | Mariana Pereira |  10/12/2025 |
+
+
 # Fluxo de Arquitetura do Sistema RAG
 
 O sistema desenvolvido implementa uma solução completa de **RAG** voltada para o apoio no contexto dos programas sociais. A arquitetura integra processos de **coleta de dados**, **estruturação automática**, **indexação semântica**, **recuperação inteligente** e **interação em tempo real** com o usuário.
@@ -8,4 +15,4 @@ O pipeline foi projetado para ser **modular**, **transparente** e **auditável**
 
 A seguir, apresentamos o fluxograma completo que descreve todo o processo, do scraping inicial à interação final com o usuário, conforme implementado no projeto.
 
-![diagrama de arquitetura](./images/arquitetura.png)
+![diagrama de arquitetura](./images/diagrama_arquitetura.png)
